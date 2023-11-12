@@ -98,15 +98,15 @@ clock = pygame.time.Clock()
 score = 0
 #create 10 aliens
 aliens = []
-for i in range(10):
-  aliens.append(Alien(i*50,30))
+for i in range(15):
+  aliens.append(Alien(i*35,30))
 
 megaAl1 = MegaAlien(50,100)
 megaAl2 = MegaAlien(250,100)
 aliens.append(megaAl1)
 aliens.append(megaAl2)
 #create Gun
-mygun = Gun(285,360)
+mygun = Gun(290,365)
 bullets = [] #array to hold all the bullets
 alienbullets = []
 ## Game loop start---------
@@ -176,6 +176,7 @@ pygame.quit()
 #useful links? 
 #https://www.makeuseof.com/pygame-games-control-time-how-to/
 #ideas for questions:
+# whats the maximum number of points you can score
 # what type of structure is the colour variable (tuple)
 # How to stop the game if aliens reach the player
 # keep a count of bullet s used and deduct from score
