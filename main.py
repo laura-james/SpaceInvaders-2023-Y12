@@ -183,6 +183,6 @@ pygame.quit()
 # adjust the frequncy of teh alien bullets
 # make them drop at a random speed?
 # 
-# end the game when there are no more bullets
+# end the game when there are no more aliens
 # keep a track of the time spent playing using Ticks
 
