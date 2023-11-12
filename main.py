@@ -172,3 +172,16 @@ while not done:
   clock.tick(60)
 ## Game loop end------------
 pygame.quit()
+
+#useful links? 
+#https://www.makeuseof.com/pygame-games-control-time-how-to/
+#ideas for questions:
+# what type of structure is the colour variable (tuple)
+# How to stop the game if aliens reach the player
+# keep a count of bullet s used and deduct from score
+# adjust the frequncy of teh alien bullets
+# make them drop at a random speed?
+# 
+# end the game when there are no more bullets
+# keep a track of the time spent playing using Ticks
+
